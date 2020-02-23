@@ -1,5 +1,7 @@
 # Menü -
 
+Wichtig, verbuggt und nicht final !!!!
+
 - Menüerstellung mit Einrahmung
 - Passt sich automatisch der größten Textgröße an
 
