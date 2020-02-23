@@ -18,7 +18,10 @@ namespace Menü_Umrandung
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.BackgroundColor = ConsoleColor.Yellow;
 
-            String[] text = 
+            int zahlZahleZahl1 = 1;
+            Int64 zahlZahleZahl2 = 2222222222222222221;
+
+            String[] text1 = 
                 {
                 "1) Auswahl",
                 "2) Auswahl für",
@@ -28,11 +31,20 @@ namespace Menü_Umrandung
                 "Nur Texte verfassen, keine Menüanpassungen mehr",
                 "Menürahmen passt sich der TExtgröße an",
                 "Menürahmen sind nun editierbar",
+                "",
+                "acb "
                 };
-            
-            Umrandung2 lol = new Umrandung2();
-            lol.Menü(text);
 
+            String[] text2 =
+                {
+                "abc",
+                "abc " + zahlZahleZahl1,
+                "abc " + zahlZahleZahl2
+                };
+
+            Umrandung2 lol = new Umrandung2();
+            lol.Menü(text1);
+            lol.Menü(text2);
 
             /*// Test
             Console.WriteLine("Das geht\n\n");
