@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace Menü_Umrandung
     {
         static void Main(string[] args)
         {
-            Menü();           
+            Menü();
         }
 
         static void Menü()
@@ -21,9 +21,9 @@ namespace Menü_Umrandung
             int zahlZahleZahl1 = 1;
             Int64 zahlZahleZahl2 = 2222222222222222221;
 
-            String[] text1 = 
+            String[] text1 =
                 {
-                "1) Auswahl",
+                "1) aaaaaawahl",
                 "2) Auswahl für",
                 "3) Auswahl für das",
                 "4) Auswahl für das die Klasse",
@@ -42,9 +42,10 @@ namespace Menü_Umrandung
                 "abc " + zahlZahleZahl2
                 };
 
-            Umrandung2 lol = new Umrandung2();
-            lol.Menü(text1);
-            lol.Menü(text2);
+            //Umrandung2 text = new Umrandung2(text1);
+            Umrandung3 text = new Umrandung3(text1, "X  ", "  2", "3");
+            text.Menü(text1);
+
 
             /*// Test
             Console.WriteLine("Das geht\n\n");
