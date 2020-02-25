@@ -4,6 +4,7 @@ Funktioniert, das editieren des Menüs ist experimental nicht final !
 
 - Menüerstellung mit Einrahmung
 - Passt sich automatisch der größten Textgröße an
+- V3. Der Rahmen kann nun direkt übergeben werden und muss nicht wenn man text erneut aufruft oder ändert den Rahmen neu angeben Umarndungv3 text = new UmrandungV3(text, "A", "B", "C");
 
 How to do ?
 C# und dodnet4.8, oder ihr compiliert euch den Code selber, z.B. in Visual Studio 2019 Community Edition (Kostenlos). Müsst Gegebennenfals die KLassennamen ändern. 
